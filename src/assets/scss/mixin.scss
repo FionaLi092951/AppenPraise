@@ -1,0 +1,9 @@
+// icon 图标默认样式
+@mixin icon($url, $width, $height) {
+    display: inline-block;
+    margin-right: 8px;
+    width: $width;
+    height: $height;
+    vertical-align: middle;
+    background: url($url) center center no-repeat;
+}
